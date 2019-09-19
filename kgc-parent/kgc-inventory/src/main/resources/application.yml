@@ -1,0 +1,13 @@
+spring:
+  activemq:
+    user: jt87
+    password: 123
+    broker-url: tcp://127.0.0.1:61616
+    pool:
+      enabled: true
+      max-connections: 20
+    packages:
+      trust-all: true
+server:
+  port: 8082
+
